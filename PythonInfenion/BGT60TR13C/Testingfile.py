@@ -39,6 +39,9 @@ from range_angle_map import LivePlot
 #   device = DeviceFmcw()
 # However, the with block gives you better control when the device is closed.
 
+#######test
+print("hello")
+
 with DeviceFmcw() as device:
     print("Radar SDK Version: " + get_version())
     print("UUID of board: " + device.get_board_uuid())
